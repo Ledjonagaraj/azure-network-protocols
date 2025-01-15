@@ -90,20 +90,20 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM:
 </p>
 <p>
-  <img src="https://i.imgur.com/bihftKK.png" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
+  <img src="https://i.imgur.com/ho8ZuSR.png" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
 </p>
 <p>
   Open the Network Security Group your Ubuntu VM is using and disable incoming (inbound) ICMP traffic, while back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line Ping activity:
 </p>
 <p>
-  <img src="https://i.imgur.com/ovGk5dq.png" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
-  <img src="https://i.imgur.com/NjuUANI.png" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
+  <img src="https://i.imgur.com/reNAtbc.png" height="75%" width="100%" alt="ICMP traffic - perpetual ping"/>
+  <img src="https://i.imgur.com/D6LSiqO.png" height="75%" width="100%" alt="ICMP traffic - ICMP denied"/>
 </p>
 <p>
   Re-enable ICMP traffic for the Network Security Group in your Ubuntu VM and back in the Windows 10 VM, observe the ICMP traffic in WireShark and the command line ping activity (should start working again).Finally, stop the ping activity:
 </p>
 <p>
-  <img src="https://i.imgur.com/nZbl2sA.png" height="75%" width="100%" alt="ICMP traffic - ICMP re-enabled"/>
+  <img src="https://i.imgur.com/7fvofWi.png" height="75%" width="100%" alt="ICMP traffic - ICMP re-enabled"/>
 </p>
 <br />
 <br />
@@ -117,7 +117,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 </p>
   Exit the SSH connection by typing ‘exit’ and pressing [return]:
 </p>
-  <img src="https://i.imgur.com/6YEDJKu.png" height="75%" width="100%" alt="SSH traffic"/>
+  <img src="https://i.imgur.com/fjMWqNU.png" height="75%" width="100%" alt="SSH traffic"/>
 <p>
 <br />
 <br />
