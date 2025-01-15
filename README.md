@@ -77,14 +77,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM. Observe ping requests and replies within WireShark:
 </p>
 <p>
-  <img src="https://i.imgur.com/yYGKuAy.png" height="75%" width="100%" alt="Ubuntu private IP"/>
-  <img src="https://i.imgur.com/3h9QSEY.png" height="75%" width="100%" alt="ICMP traffic - private IP"/>
+  <img src="https://i.imgur.com/o2bQV7Y.png" height="75%" width="100%" alt="Ubuntu private IP"/>
+  <img src="https://i.imgur.com/xUhhPkd.png" height="75%" width="100%" alt="ICMP traffic - private IP"/>
 </p>
 <p>
   Attempt to ping a public website (such as www.google.com) and observe the traffic in WireShark:
 </p>
 <p>
-  <img src="https://i.imgur.com/YduMvc7.png" height="75%" width="100%" alt="ICMP traffic - public IP"/>
+  <img src="https://i.imgur.com/LP1Lw19.png" height="75%" width="100%" alt="ICMP traffic - public IP"/>
 </p>
 <p>
   Initiate a perpetual/non-stop ping from your Windows 10 VM to your Ubuntu VM:
