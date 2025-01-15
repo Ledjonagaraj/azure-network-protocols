@@ -11,8 +11,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows 10 (22H2)
+- Ubuntu Server 22.04
 
 <h2>High-Level Steps</h2>
 
@@ -44,7 +44,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   While creating the VM, select the previously created Resource Group and allow it to create a new Virtual Network (Vnet) and Subnet. Make sure to use the password option under the <strong>Administrator Account</strong> section:
 </p>
 <p>
-  <img src="https://i.imgur.com/PHOwjLh.png" height="75%" width="100%" alt="Windows VM"/>
+  <img src="https://i.imgur.com/4CrtrGu.png" height="75%" width="100%" alt="Windows VM"/>
 </p>
 <p>
   Create an Ubuntu virtual machine.
@@ -53,7 +53,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   While creating the VM, select the previously created Resource Group and allow it to create a new Virtual Network (Vnet) and Subnet. Make sure to use the password option under the <strong>Administrator Account</strong> section (not seen in image):
 </p>
 <p>
-  <img src="https://i.imgur.com/N5zwQUH.png" height="75%" width="100%" alt="Ubuntu VM"/>
+  <img src="https://i.imgur.com/QP8xTTU.png" height="75%" width="100%" alt="Ubuntu VM"/>
 </p>
 <p>
   Observe Your Virtual Network within Network Watcher:
