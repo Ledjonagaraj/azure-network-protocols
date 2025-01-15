@@ -71,7 +71,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   Remote into your Windows 10 Virtual Machine, install Wireshark, open it and filter for ICMP traffic only.
 </p>
 <p>
-  <img src="https://i.imgur.com/0BsfNiS.jpg" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
+  <img src="https://i.imgur.com/vE8Msqf.png" height="75%" width="100%" alt="Microsoft Remote Desktop - Mac"/>
 </p>
 <p>
   Retrieve the private IP address of the Ubuntu VM and attempt to ping it from within the Windows 10 VM. Observe ping requests and replies within WireShark:
