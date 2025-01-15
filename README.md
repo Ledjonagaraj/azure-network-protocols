@@ -131,7 +131,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 Observe the DHCP traffic appearing in WireShark:
 </p>
 <p>
-  <img src="https://i.imgur.com/mKyAHFr.png" height="75%" width="100%" alt="DHCP traffic"/>
+  <img src="https://i.imgur.com/wlX76KY.png" height="75%" width="100%" alt="DHCP traffic"/>
 </p>
 <br />
 <br />
@@ -143,10 +143,10 @@ Observe the DHCP traffic appearing in WireShark:
   Back in Wireshark, filter for DNS traffic only.
 </p>
 <p>
-  From your Windows 10 VM within a command line, use nslookup to see what google.com and disney.com’s IP addresses are and observe the DNS traffic being shown in WireShark:
+  From your Windows 10 VM within a command line, use nslookup to see what netflix.com and amazon’s IP addresses are and observe the DNS traffic being shown in WireShark:
 </p>
 <p>
-  <img src="https://i.imgur.com/mYZ8CAK.png" height="75%" width="100%" alt="DNS traffic"/>
+  <img src="https://i.imgur.com/53Hb8Nc.png" height="75%" width="100%" alt="DNS traffic"/>
 </p>
 <br />
 <br />
@@ -164,7 +164,7 @@ Observe the DHCP traffic appearing in WireShark:
   The answer is because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted:
 </p>
 <p>
-  <img src="https://i.imgur.com/hNlhTVp.png" height="75%" width="100%" alt="RDP traffic"/>
+  <img src="https://i.imgur.com/EBhmSMz.png" height="75%" width="100%" alt="RDP traffic"/>
 </p>
 <p>
   Now that we're finished observing the network, DON'T FORGET TO CLEAN UP YOUR AZURE ENVIRONMENT! This will prevent you from incurring additional charges and you won't be left surprised!
