@@ -35,7 +35,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   First, let's create our Resource Group inside our Azure subscription.
 </p>
 <p>
-  <img src="https://https://i.imgur.com/G5jXEjl.png" height="75%" width="100%" alt="Resource Group"/>
+  <img src="https://i.imgur.com/G5jXEjl.png" height="75%" width="100%" alt="Resource Group"/>
 </p>
 <p>
   Now create your Windows virtual machine. I typically create the VM in (US) East US.
