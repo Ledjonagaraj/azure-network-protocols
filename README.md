@@ -59,7 +59,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   Observe Your Virtual Network within Network Watcher:
 </p>
 <p>
-  <img src="https://i.imgur.com/Pn02GXF.png" height="75%" width="100%" alt="Network Watcher"/>
+  <img src="https://i.imgur.com/i2tVTZq.png" height="75%" width="100%" alt="Network Watcher"/>
 </p>
 <br />
 <br />
